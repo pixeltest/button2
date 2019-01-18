@@ -1,0 +1,47 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+a.video_button {
+    width: 100px !important;
+    height: 520px !important;
+    background-size: cover !important;
+}
+
+
+a.video_button:link, a.video_button:visited {
+    background-position: top left;
+}
+
+a.video_button:hover, a.video_button:visited{
+    background-position: top right;
+}
+
+a.video_button {
+    display: block;
+    background-image: url(https://www.gcc.mu/wp-content/uploads/2018/12/video_button_fixed.png);
+    text-indent: -9999px !important;
+    margin: 0;
+    position: fixed;
+    bottom: 35%;
+    left: 0;
+    z-index: 9999999;
+}
+
+a {
+	background: 0 0;
+    border: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: 0;
+}
+
+
+
+
+a.video_button:active
